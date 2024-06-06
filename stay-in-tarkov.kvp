@@ -1,10 +1,10 @@
-Meta.DisplayName=Stay In Tarkov
-Meta.Description=Stay In Tarkov Dedicated Server (NON COMMERCIAL USE ONLY)
-Meta.OS=Windows, Linux
+Meta.DisplayName=SPT-Aki 
+Meta.Description=SPT-Aki Dedicated Server (Co-op)
+Meta.OS=Windows
 Meta.AarchSupport=Unknown
 Meta.Arch=x86_64
-Meta.Author=dzlockhead and AMP Community
-Meta.URL=https://github.com/stayintarkov/SIT.Aki-Server-Mod
+Meta.Author=acutemeowcenary
+Meta.URL=https://github.com/acutemeowcenary/acutemeowcenary-AMP-SPT-Aki
 Meta.DisplayImageSource=url:https://avatars.githubusercontent.com/u/151196584?s=200&v=4.jpg
 Meta.EndpointURIFormat=
 Meta.ConfigManifest=stay-in-tarkovconfig.json
@@ -26,7 +26,7 @@ Meta.ReleaseNotes=
 Meta.BreakingReleaseNotes=
 Meta.AppConfigId=3c436631-0156-4ccd-84d3-675f34f57f62
 Meta.ImportableExtensions=[]
-App.DisplayName=Stay In Tarkov
+App.DisplayName=SPT-Aki
 App.RootDir=./sit/
 App.BaseDirectory=./sit/server/
 App.SteamWorkshopDownloadLocation=
