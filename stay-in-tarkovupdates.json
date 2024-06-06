@@ -34,37 +34,21 @@
         "UpdateStageName":"Fika Plugin Download",
         "UpdateSourcePlatform":"Windows",
         "UpdateSource":"FetchURL",
-        "UpdateSourceData":"https://github.com/project-fika/Fika-Plugin/releases/download/v*.zip",
+        "UpdateSourceData":"https://github.com/project-fika/Fika-Plugin/releases/download/v{{FikaRelease}}/Fika.Release.{{FikaRelease}}.zip",
         "UpdateSourceTarget":"{{$FullBaseDir}}",
         "UnzipUpdateSource":true,
         "OverwriteExistingFiles":true,
         "DeleteAfterExtract":true
-    },
-    {
-        "UpdateStageName":"Fika Plugin Files Extract",
-        "UpdateSourcePlatform":"Windows",
-        "UpdateSource":"Executable",
-        "UpdateSourceData":"cmd.exe",
-        "UpdateSourceArgs":"/C cd .\\spt-aki\\server && ..\\7-Zip\\7zr.exe x -y Fika.Release*.zip > NUL 2>&1 && del /Q /F Fika.Release*.zip",
-        "SkipOnFailure":false
     },
     {
         "UpdateStageName":"Fika Server Mod Download",
         "UpdateSourcePlatform":"Windows",
         "UpdateSource":"FetchURL",
-        "UpdateSourceData":"https://github.com/project-fika/Fika-Server/releases/download/v*.zip",
+        "UpdateSourceData":"https://github.com/project-fika/Fika-Server/releases/download/v{{FikaServer}}/fika-server.zip",
         "UpdateSourceTarget":"{{$FullBaseDir}}",
         "UnzipUpdateSource":true,
         "OverwriteExistingFiles":true,
         "DeleteAfterExtract":true
-    },
-    {
-        "UpdateStageName":"Fika Server Mod Files Extract",
-        "UpdateSourcePlatform":"Windows",
-        "UpdateSource":"Executable",
-        "UpdateSourceData":"cmd.exe",
-        "UpdateSourceArgs":"/C cd .\\spt-aki\\server && ..\\7-Zip\\7zr.exe x -y fika-server*.zip > NUL 2>&1 && del /Q /F fika-server*.zip",
-        "SkipOnFailure":false
     },
     {
         "UpdateStageName":"Server Startup",
