@@ -52,7 +52,7 @@
         "UpdateStageName":"Fika Server Mod Download",
         "UpdateSourcePlatform":"Windows",
         "UpdateSource":"FetchURL",
-        "UpdateSourceData":"https://github.com/project-fika/Fika-Server/releases/download/v2.1.1/fika-server.zip",
+        "UpdateSourceData":"https://github.com/project-fika/Fika-Server/releases/download/v{{FikaServer}}/fika-server.zip",
         "UpdateSourceTarget":"{{$FullBaseDir}}",
         "UnzipUpdateSource":true,
         "OverwriteExistingFiles":true,
