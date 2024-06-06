@@ -4,7 +4,7 @@ Meta.OS=Windows
 Meta.AarchSupport=Unknown
 Meta.Arch=x86_64
 Meta.Author=acutemeowcenary
-Meta.URL=https://github.com/acutemeowcenary/acutemeowcenary-AMP-SPT-Aki
+Meta.URL=https://github.com/acutemeowcenary/AMP-SPT-Aki
 Meta.DisplayImageSource=url:https://avatars.githubusercontent.com/u/119755943?s=400&&v=4.jpg
 Meta.EndpointURIFormat=
 Meta.ConfigManifest=stay-in-tarkovconfig.json
