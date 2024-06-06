@@ -11,28 +11,6 @@
         "EnumValues":{}
     },
     {
-        "DisplayName":"TCP Relay Port",
-        "Category":"SPT Server Settings",
-        "Description":"",
-        "Keywords":"",
-        "FieldName":"$SITPort2",
-        "InputType":"number",
-        "Hidden":true,
-        "ParamFieldName":"$.webSocketPort",
-        "EnumValues":{}
-    },
-    {
-        "DisplayName":"TCP NAT Helper Port",
-        "Category":"SPT Server Settings",
-        "Description":"",
-        "Keywords":"",
-        "FieldName":"$SITPort3",
-        "InputType":"number",
-        "Hidden":true,
-        "ParamFieldName":"$.natHelperPort",
-        "EnumValues":{}
-    },
-    {
         "DisplayName":"Binding IP",
         "Category":"SPT Server Settings",
         "Description":"",
