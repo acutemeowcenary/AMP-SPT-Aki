@@ -34,5 +34,33 @@
             "3.8.0-29197-2dd4d91":"3.8.0",
             "3.8.3-29197-01783e2":"3.8.3"
         }
+    },
+    {
+        "DisplayName":"Fika Plugin Version",
+        "Category":"SPT Server Settings",
+        "Description":"Sets the Fika Plugin version to install.",
+        "Keywords":"fika,version",
+        "FieldName":"FikaRelease",
+        "InputType":"enum",
+        "ParamFieldName":"FikaRelease",
+        "DefaultValue":"3.8.3-29197-01783e2",
+        "EnumValues":{
+            "3.8.0-29197-2dd4d91":"3.8.0",
+            "3.8.3-29197-01783e2":"3.8.3"
+        }
+    },
+    {
+        "DisplayName":"SPT AKI Version",
+        "Category":"SPT Server Settings",
+        "Description":"Sets the SPT AKI version to install.",
+        "Keywords":"spt,version",
+        "FieldName":"SPTVersion",
+        "InputType":"enum",
+        "ParamFieldName":"SPTVersion",
+        "DefaultValue":"3.8.3-29197-01783e2",
+        "EnumValues":{
+            "3.8.0-29197-2dd4d91":"3.8.0",
+            "3.8.3-29197-01783e2":"3.8.3"
+        }
     }
 ]
