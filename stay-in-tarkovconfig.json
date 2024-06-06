@@ -6,7 +6,6 @@
         "Keywords":"",
         "FieldName":"$SITPort1",
         "InputType":"number",
-        "Hidden":true,
         "ParamFieldName":"$.port",
         "EnumValues":{}
     },
@@ -17,7 +16,6 @@
         "Keywords":"",
         "FieldName":"$ApplicationIPBinding",
         "InputType":"text",
-        "Hidden":true,
         "ParamFieldName":"$.ip",
         "EnumValues":{}
     },
