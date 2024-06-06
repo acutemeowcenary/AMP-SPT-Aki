@@ -27,7 +27,7 @@
         "UpdateSourcePlatform":"Windows",
         "UpdateSource":"Executable",
         "UpdateSourceData":"cmd.exe",
-        "UpdateSourceArgs":"/C cd .\\sit\\server && ..\\7-Zip\\7zr.exe x -y SPT*.7z > NUL 2>&1 && del /Q /F SPT*.7z",
+        "UpdateSourceArgs":"/C cd .\\spt-aki\\server && ..\\7-Zip\\7zr.exe x -y SPT*.7z > NUL 2>&1 && del /Q /F SPT*.7z",
         "SkipOnFailure":false
     },
     {
@@ -45,7 +45,7 @@
         "UpdateSourcePlatform":"Windows",
         "UpdateSource":"Executable",
         "UpdateSourceData":"cmd.exe",
-        "UpdateSourceArgs":"/C cd .\\sit\\server && ..\\7-Zip\\7zr.exe x -y Fika.Release*.zip > NUL 2>&1 && del /Q /F Fika.Release*.zip",
+        "UpdateSourceArgs":"/C cd .\\spt-aki\\server && ..\\7-Zip\\7zr.exe x -y Fika.Release*.zip > NUL 2>&1 && del /Q /F Fika.Release*.zip",
         "SkipOnFailure":false
     },
     {
@@ -63,7 +63,7 @@
         "UpdateSourcePlatform":"Windows",
         "UpdateSource":"Executable",
         "UpdateSourceData":"cmd.exe",
-        "UpdateSourceArgs":"/C cd .\\sit\\server && ..\\7-Zip\\7zr.exe x -y fika-server*.zip > NUL 2>&1 && del /Q /F fika-server*.zip",
+        "UpdateSourceArgs":"/C cd .\\spt-aki\\server && ..\\7-Zip\\7zr.exe x -y fika-server*.zip > NUL 2>&1 && del /Q /F fika-server*.zip",
         "SkipOnFailure":false
     },
     {
