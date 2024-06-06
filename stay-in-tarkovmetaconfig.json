@@ -3,5 +3,5 @@
         "ConfigFile":"Aki_Data/Server/configs/http.json",
         "AutoMap":true,
         "ConfigType":"json"
-    },
+    }
 ]
