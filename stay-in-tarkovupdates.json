@@ -39,7 +39,7 @@
         "UnzipUpdateSource":true,
         "OverwriteExistingFiles":true,
         "DeleteAfterExtract":true
-        "SkipOnFailure":true
+        "SkipOnFailure":false
     },
     {
         "UpdateStageName":"Fika Server Mod Download",
@@ -50,7 +50,7 @@
         "UnzipUpdateSource":true,
         "OverwriteExistingFiles":true,
         "DeleteAfterExtract":true
-        "SkipOnFailure":true
+        "SkipOnFailure":false
     },
     {
         "UpdateStageName":"Server Startup",
