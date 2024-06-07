@@ -37,9 +37,9 @@
         "Category":"SPT Server Settings",
         "Description":"",
         "Keywords":"",
-        "FieldName":"backendIP",
+        "FieldName":"backendIp",
         "InputType":"text",
-        "ParamFieldName":"backendIP",
+        "ParamFieldName":"backendIp",
         "DefaultValue":"acutemeowcenary.synology.me",
         "EnumValues":{}
     },
