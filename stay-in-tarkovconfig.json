@@ -22,6 +22,46 @@
         "EnumValues":{}
     },
     {
+        "DisplayName":"Local IP",
+        "Category":"SPT Server Settings",
+        "Description":"",
+        "Keywords":"",
+        "FieldName":"ip",
+        "InputType":"text",
+        "ParamFieldName":"ip",
+        "EnumValues":{}
+    },
+    {
+        "DisplayName":"Back End IP",
+        "Category":"SPT Server Settings",
+        "Description":"",
+        "Keywords":"",
+        "FieldName":"backendIP",
+        "InputType":"text",
+        "ParamFieldName":"backendIP",
+        "EnumValues":{}
+    },
+    {
+        "DisplayName":"Local Port",
+        "Category":"SPT Server Settings",
+        "Description":"",
+        "Keywords":"",
+        "FieldName":"port",
+        "InputType":"text",
+        "ParamFieldName":"port",
+        "EnumValues":{}
+    },
+    {
+        "DisplayName":"Back End Port",
+        "Category":"SPT Server Settings",
+        "Description":"",
+        "Keywords":"",
+        "FieldName":"backendPort",
+        "InputType":"text",
+        "ParamFieldName":"backendPort",
+        "EnumValues":{}
+    },
+    {
         "DisplayName":"SPT AKI Version",
         "Category":"SPT Server Settings",
         "Description":"Sets the SPT AKI version to install.",
