@@ -29,6 +29,7 @@
         "FieldName":"ip",
         "InputType":"text",
         "ParamFieldName":"ip",
+        "DefaultValue":"0.0.0.0",
         "EnumValues":{}
     },
     {
@@ -39,6 +40,7 @@
         "FieldName":"backendIP",
         "InputType":"text",
         "ParamFieldName":"backendIP",
+        "DefaultValue":"acutemeowcenary.synology.me",
         "EnumValues":{}
     },
     {
@@ -49,6 +51,7 @@
         "FieldName":"port",
         "InputType":"text",
         "ParamFieldName":"port",
+        "DefaultValue":"6969",
         "EnumValues":{}
     },
     {
@@ -59,6 +62,7 @@
         "FieldName":"backendPort",
         "InputType":"text",
         "ParamFieldName":"backendPort",
+        "DefaultValue":"6969",
         "EnumValues":{}
     },
     {
@@ -67,13 +71,10 @@
         "Description":"Sets the SPT AKI version to install.",
         "Keywords":"spt,version",
         "FieldName":"SPTVersion",
-        "InputType":"enum",
+        "InputType":"text",
         "ParamFieldName":"SPTVersion",
         "DefaultValue":"3.8.3-29197-01783e2",
-        "EnumValues":{
-            "3.8.0-29197-2dd4d91":"3.8.0",
-            "3.8.3-29197-01783e2":"3.8.3"
-        }
+        "EnumValues":{}
     },
     {
         "DisplayName":"Fika Plugin Version",
