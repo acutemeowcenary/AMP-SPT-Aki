@@ -20,7 +20,7 @@
         "UpdateSourceTarget":"{{$FullBaseDir}}",
         "UnzipUpdateSource":false,
         "OverwriteExistingFiles":true,
-        "SkipOnFailure":true
+        "SkipOnFailure":false
     },
     {
         "UpdateStageName":"SPT Files Extract",
@@ -28,7 +28,7 @@
         "UpdateSource":"Executable",
         "UpdateSourceData":"cmd.exe",
         "UpdateSourceArgs":"/C cd .\\spt-aki\\server && ..\\7-Zip\\7zr.exe x -y SPT*.7z > NUL 2>&1 && del /Q /F SPT*.7z",
-        "SkipOnFailure":true
+        "SkipOnFailure":false
     },
     {
         "UpdateStageName":"Fika Plugin Download",
