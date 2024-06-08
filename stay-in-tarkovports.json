@@ -6,4 +6,11 @@
         "Description":"Port for main game traffic",
         "Ref":"SITPort1"
     },
+    {
+        "Protocol":"UPD",
+        "Port":"25565",
+        "Name":"P2P Port",
+        "Description":"Port for main P2P traffic",
+        "Ref":"SITPort2"
+    }
 ]
